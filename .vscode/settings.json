@@ -1,0 +1,18 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.currentSetup": "E:/SpecialPrograms/Espressif/frameworks/esp-idf-v5.5.3/",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "E:\\SpecialPrograms\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=f:\\Temp\\workspace\\Project\\07_Smart_Bell\\build"
+  ],
+  "idf.flashType": "UART",
+  "idf.portWin": "COM7"
+}

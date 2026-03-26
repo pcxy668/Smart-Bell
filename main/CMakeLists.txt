@@ -1,0 +1,23 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "Com/Com_utils.c"
+        "Int/Int_button.c"
+        "Int/Int_led.c"
+        "Int/Int_codec.c"
+        "Int/Int_wifi.c"
+        "Int/Int_lcd.c"
+        "Int/Int_camera.c"
+        "Int/Int_mqtt.c"
+        "Int/Int_websocket.c"
+    INCLUDE_DIRS 
+        "."
+        "Com"
+        "Int"
+    EMBED_FILES 
+        doorbell.pcm 
+        blame.pcm
+        myfault.pcm
+        image.jpg
+    )
+#.pcm文件为自定义音频铃声，可自行制作替换
